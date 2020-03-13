@@ -1,0 +1,34 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f1fffb;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "MyriadPro Bold";
+  font-style: normal;
+  font-weight: 300;
+  src: local("MyriadPro Bold"), url("MYRIADPRO-BOLD.woff") format("woff");
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0.4);
+    z-index: -1;
+  }
+  to {
+    transform: scale(1);
+    z-index: -1;
+  }
+}
